@@ -1,0 +1,103 @@
+
+/* Container to hold both divs */
+.container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    gap: 50px; /* Add space between the two divs */
+    height: 100vh; /* Make the container fill the entire viewport */
+    margin: 0; /* Remove default margins */
+  }
+  
+  /* Style for the image container */
+  #in-image {
+    width: 350px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    border: 2px solid #ddd; /* Optional: Add a light border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    overflow: hidden; /* Clip overflow content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    background-color: #f9f9f9; /* Optional: Background color */
+  }
+  
+  #in-image img {
+    width: 100%; /* Scale the image to fit the container */
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the container */
+  }
+  
+  /* Style for the auth section */
+  #auth-section {
+    width: 350px; /* Set a fixed width */
+    padding: 20px; /* Add padding */
+    border: 2px solid #ddd; /* Optional: Add a border */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow */
+    background-color: #ffffff; /* White background */
+  }
+  
+  #auth-section h2 {
+    margin-bottom: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: center;
+  }
+  
+  #auth-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #auth-section label,
+  #auth-section input,
+  #auth-section button {
+    margin-bottom: 10px; /* Add spacing between elements */
+  }
+  
+  #auth-section input {
+    padding: 8px; /* Add padding inside input fields */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners for inputs */
+  }
+  
+  #auth-section button {
+    padding: 10px;
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+  }
+  
+  #auth-section button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  footer {
+    background-color: #111;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footercontainer{
+    width:100%;
+    padding:70px 30px 20px;
+  }
+  
+  .footerbotton p{
+    color: white;
+    text-align: center;
+  }
+  
+  .designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  

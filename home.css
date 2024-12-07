@@ -1,0 +1,89 @@
+body {
+  background-image: url('background.png'); /* Replace with your image path */
+  background-size: cover; /* Makes the image cover the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push content to the bottom */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full viewport height */
+}
+
+
+/* Style the button container */
+.button-container {
+  display: flex;
+  gap: 80px; /* Space between buttons */
+  margin-bottom:250px; /* Space between buttons and bottom edge */
+  margin-right:1000px;
+  border: none;
+  size: 50em;
+}
+
+/* Button styles */
+.click {
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: none solid;
+  border-radius: 10px;
+  background-color: black;
+  box-sizing: border-box;
+  
+}
+
+.click:hover {
+  background-color: #2980b9; /* Change color on hover */
+}
+
+
+footer {
+  background-color: #111;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footercontainer{
+  width:100%;
+  padding:70px 30px 20px;
+}
+
+.footerbotton p{
+  color: white;
+  text-align: center;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    background-size: contain; /* Adjust for smaller screens */
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    background-size: cover; /* Full cover for larger screens */
+  }
+}
+
